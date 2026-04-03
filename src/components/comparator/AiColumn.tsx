@@ -10,6 +10,12 @@ interface AiColumnProps {
   filePath: string | undefined;
 }
 
+function estimateWordCount(text: string): string {
+  const words = text.trim().split(/\s+/).length;
+  if (words >= 1000) return `~${Math.round(words / 1000)}k từ`;
+  return `~${words} từ`;
+}
+
 export function AiColumn({ topicId, aiSource, filePath }: AiColumnProps) {
   const { content, loading, error } = useMarkdown(filePath);
   const color = AI_COLORS[aiSource];
@@ -28,6 +34,11 @@ export function AiColumn({ topicId, aiSource, filePath }: AiColumnProps) {
             style={{ backgroundColor: color }}
           />
           <span className="font-semibold text-sm text-gray-900">{label}</span>
+          {content && (
+            <span className="text-[10px] text-gray-400 font-normal">
+              {estimateWordCount(content)}
+            </span>
+          )}
         </div>
         <ExternalLink className="w-3.5 h-3.5 text-gray-400 group-hover:text-gray-600 transition-colors" />
       </Link>

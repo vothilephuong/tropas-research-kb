@@ -1,0 +1,14 @@
+{
+  "id": "a2-forecasting-systems",
+  "title": "Intelligent Forecasting Systems for Observatory Operations",
+  "description": "Hệ thống dự báo thông minh cho vận hành đài thiên văn — scheduling, real-time, decision support",
+  "tags": ["forecasting-systems", "observatory-operations", "scheduling", "decision-support"],
+  "status": "complete",
+  "created": "2026-03-23",
+  "files": {
+    "claude": "claude.md",
+    "chatgpt": "chatgpt.md",
+    "gemini": "gemini.md",
+    "perplexity": "perplexity.md"
+  }
+}

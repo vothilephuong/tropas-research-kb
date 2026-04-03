@@ -1,0 +1,14 @@
+{
+  "id": "d2-evaluation-framework",
+  "title": "Observatory Weather Data Evaluation Framework",
+  "description": "Khung đánh giá so sánh dữ liệu khí tượng đài thiên văn — metrics, benchmarks, quality scoring",
+  "tags": ["evaluation", "framework", "metrics", "benchmarking", "data-quality"],
+  "status": "complete",
+  "created": "2026-03-23",
+  "files": {
+    "claude": "claude.md",
+    "chatgpt": "chatgpt.md",
+    "gemini": "gemini.md",
+    "perplexity": "perplexity.md"
+  }
+}

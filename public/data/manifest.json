@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T02:38:25.717Z",
+  "generated_at": "2026-04-03T07:13:52.236Z",
   "topics": [
     {
       "id": "a1-overview",
@@ -19,6 +19,27 @@
         "chatgpt": "topics/a1-overview/chatgpt.md",
         "gemini": "topics/a1-overview/gemini.md",
         "perplexity": "topics/a1-overview/perplexity.md"
+      },
+      "assets": []
+    },
+    {
+      "id": "a2-forecasting-systems",
+      "title": "Intelligent Forecasting Systems for Observatory Operations",
+      "description": "Hệ thống dự báo thông minh cho vận hành đài thiên văn — scheduling, real-time, decision support",
+      "tags": [
+        "forecasting-systems",
+        "observatory-operations",
+        "scheduling",
+        "decision-support"
+      ],
+      "status": "complete",
+      "created": "2026-03-23",
+      "path": "topics/a2-forecasting-systems",
+      "files": {
+        "claude": "topics/a2-forecasting-systems/claude.md",
+        "chatgpt": "topics/a2-forecasting-systems/chatgpt.md",
+        "gemini": "topics/a2-forecasting-systems/gemini.md",
+        "perplexity": "topics/a2-forecasting-systems/perplexity.md"
       },
       "assets": []
     },
@@ -63,6 +84,28 @@
         "chatgpt": "topics/d1-datasets-survey/chatgpt.md",
         "gemini": "topics/d1-datasets-survey/gemini.md",
         "perplexity": "topics/d1-datasets-survey/perplexity.md"
+      },
+      "assets": []
+    },
+    {
+      "id": "d2-evaluation-framework",
+      "title": "Observatory Weather Data Evaluation Framework",
+      "description": "Khung đánh giá so sánh dữ liệu khí tượng đài thiên văn — metrics, benchmarks, quality scoring",
+      "tags": [
+        "evaluation",
+        "framework",
+        "metrics",
+        "benchmarking",
+        "data-quality"
+      ],
+      "status": "complete",
+      "created": "2026-03-23",
+      "path": "topics/d2-evaluation-framework",
+      "files": {
+        "claude": "topics/d2-evaluation-framework/claude.md",
+        "chatgpt": "topics/d2-evaluation-framework/chatgpt.md",
+        "gemini": "topics/d2-evaluation-framework/gemini.md",
+        "perplexity": "topics/d2-evaluation-framework/perplexity.md"
       },
       "assets": []
     }
