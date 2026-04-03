@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-04-03T02:38:25.717Z",
+  "topics": [
+    {
+      "id": "a1-overview",
+      "title": "Weather Forecasting for Astronomical Observation",
+      "description": "Bối cảnh và nhu cầu dự báo điều kiện quan sát thiên văn — site characterization, atmospheric parameters, observatory systems",
+      "tags": [
+        "site-characterization",
+        "seeing",
+        "meteorology",
+        "observatory-systems"
+      ],
+      "status": "complete",
+      "created": "2026-03-26",
+      "path": "topics/a1-overview",
+      "files": {
+        "claude": "topics/a1-overview/claude.md",
+        "chatgpt": "topics/a1-overview/chatgpt.md",
+        "gemini": "topics/a1-overview/gemini.md",
+        "perplexity": "topics/a1-overview/perplexity.md"
+      },
+      "assets": []
+    },
+    {
+      "id": "b1-deep-learning",
+      "title": "Deep Learning for Meteorological Time Series Forecasting",
+      "description": "Tổng quan kiến trúc DL cho dự báo chuỗi thời gian khí tượng — LSTM, Transformer, Foundation Models",
+      "tags": [
+        "deep-learning",
+        "lstm",
+        "transformer",
+        "foundation-models",
+        "time-series"
+      ],
+      "status": "complete",
+      "created": "2026-03-26",
+      "path": "topics/b1-deep-learning",
+      "files": {
+        "claude": "topics/b1-deep-learning/claude.md",
+        "chatgpt": "topics/b1-deep-learning/chatgpt.md",
+        "gemini": "topics/b1-deep-learning/gemini.md",
+        "perplexity": "topics/b1-deep-learning/perplexity.md"
+      },
+      "assets": []
+    },
+    {
+      "id": "d1-datasets-survey",
+      "title": "Astronomical Weather & Sky-Quality Datasets Survey",
+      "description": "Khảo sát các bộ dữ liệu thời tiết thiên văn và chất lượng bầu trời — ESO, Mauna Kea, ORM, Quy Nhon",
+      "tags": [
+        "datasets",
+        "sky-quality",
+        "survey",
+        "quy-nhon",
+        "observatory-data"
+      ],
+      "status": "complete",
+      "created": "2026-03-23",
+      "path": "topics/d1-datasets-survey",
+      "files": {
+        "claude": "topics/d1-datasets-survey/claude.md",
+        "chatgpt": "topics/d1-datasets-survey/chatgpt.md",
+        "gemini": "topics/d1-datasets-survey/gemini.md",
+        "perplexity": "topics/d1-datasets-survey/perplexity.md"
+      },
+      "assets": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-03",
+  "items": [
+    {
+      "id": "masciadri2023ar",
+      "citeKey": "Masciadri2023",
+      "title": "Autoregressive method for short-timescale seeing nowcasting at VLT",
+      "authors": ["Masciadri, E.", "Turchi, A.", "Fini, L."],
+      "year": 2023,
+      "type": "journal",
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stad1508",
+      "tags": ["seeing", "nowcasting", "autoregressive", "VLT"],
+      "notes": "Seeing RMSE 0.08 arcsec at 1-hour horizon — state of the art for operational turbulence nowcasting",
+      "mentions": [
+        { "topicId": "a1-overview", "ai": "claude", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "chatgpt", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "gemini", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "perplexity", "verdict": "support" }
+      ]
+    },
+    {
+      "id": "hochreiter1997lstm",
+      "citeKey": "Hochreiter1997",
+      "title": "Long Short-Term Memory",
+      "authors": ["Hochreiter, S.", "Schmidhuber, J."],
+      "year": 1997,
+      "type": "journal",
+      "venue": "Neural Computation",
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "tags": ["lstm", "deep-learning", "foundational"],
+      "notes": "Foundational LSTM paper — gated architecture enabling long-range temporal dependencies",
+      "mentions": [
+        { "topicId": "b1-deep-learning", "ai": "claude", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "chatgpt", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "gemini", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "perplexity", "verdict": "support" }
+      ]
+    },
+    {
+      "id": "bi2023pangu",
+      "citeKey": "Bi2023",
+      "title": "Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks",
+      "authors": ["Bi, K.", "Xie, L.", "Zhang, H."],
+      "year": 2023,
+      "type": "journal",
+      "venue": "Nature",
+      "doi": "10.1038/s41586-023-06185-3",
+      "tags": ["foundation-model", "pangu-weather", "transformer"],
+      "notes": "First AI model to surpass ECMWF HRES across all variables at all lead times",
+      "mentions": [
+        { "topicId": "b1-deep-learning", "ai": "claude", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "chatgpt", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "gemini", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "claude", "verdict": "mention" }
+      ]
+    },
+    {
+      "id": "lam2023graphcast",
+      "citeKey": "Lam2023",
+      "title": "Learning Skillful Medium-Range Global Weather Forecasting",
+      "authors": ["Lam, R.", "Sanchez-Gonzalez, A.", "Willson, M."],
+      "year": 2023,
+      "type": "journal",
+      "venue": "Science",
+      "doi": "10.1126/science.adi2336",
+      "tags": ["foundation-model", "graphcast", "gnn"],
+      "notes": "GNN-based model outperforming HRES on 90%+ of verification targets, 10-day forecast in under 1 minute",
+      "mentions": [
+        { "topicId": "b1-deep-learning", "ai": "claude", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "chatgpt", "verdict": "support" },
+        { "topicId": "b1-deep-learning", "ai": "perplexity", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "claude", "verdict": "mention" }
+      ]
+    },
+    {
+      "id": "bran2024wrf",
+      "citeKey": "Bran2024",
+      "title": "WRF-Chem atmospheric turbulence forecasting at Thai National Observatory",
+      "authors": ["Bran, S.H."],
+      "year": 2024,
+      "type": "journal",
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stae045",
+      "tags": ["wrf", "tropical", "seeing", "southeast-asia"],
+      "notes": "Only peer-reviewed turbulence forecasting study for a tropical observatory site — foundational for TROPAS",
+      "mentions": [
+        { "topicId": "a1-overview", "ai": "claude", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "chatgpt", "verdict": "support" },
+        { "topicId": "a1-overview", "ai": "gemini", "verdict": "mention" },
+        { "topicId": "a1-overview", "ai": "perplexity", "verdict": "support" }
+      ]
+    }
+  ]
+}

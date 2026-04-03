@@ -1,0 +1,14 @@
+{
+  "id": "d1-datasets-survey",
+  "title": "Astronomical Weather & Sky-Quality Datasets Survey",
+  "description": "Khảo sát các bộ dữ liệu thời tiết thiên văn và chất lượng bầu trời — ESO, Mauna Kea, ORM, Quy Nhon",
+  "tags": ["datasets", "sky-quality", "survey", "quy-nhon", "observatory-data"],
+  "status": "complete",
+  "created": "2026-03-23",
+  "files": {
+    "claude": "claude.md",
+    "chatgpt": "chatgpt.md",
+    "gemini": "gemini.md",
+    "perplexity": "perplexity.md"
+  }
+}

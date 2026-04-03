@@ -1,0 +1,14 @@
+{
+  "id": "b1-deep-learning",
+  "title": "Deep Learning for Meteorological Time Series Forecasting",
+  "description": "Tổng quan kiến trúc DL cho dự báo chuỗi thời gian khí tượng — LSTM, Transformer, Foundation Models",
+  "tags": ["deep-learning", "lstm", "transformer", "foundation-models", "time-series"],
+  "status": "complete",
+  "created": "2026-03-26",
+  "files": {
+    "claude": "claude.md",
+    "chatgpt": "chatgpt.md",
+    "gemini": "gemini.md",
+    "perplexity": "perplexity.md"
+  }
+}

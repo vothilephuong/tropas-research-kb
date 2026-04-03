@@ -1,0 +1,14 @@
+{
+  "id": "a1-overview",
+  "title": "Weather Forecasting for Astronomical Observation",
+  "description": "Bối cảnh và nhu cầu dự báo điều kiện quan sát thiên văn — site characterization, atmospheric parameters, observatory systems",
+  "tags": ["site-characterization", "seeing", "meteorology", "observatory-systems"],
+  "status": "complete",
+  "created": "2026-03-26",
+  "files": {
+    "claude": "claude.md",
+    "chatgpt": "chatgpt.md",
+    "gemini": "gemini.md",
+    "perplexity": "perplexity.md"
+  }
+}
